@@ -18,11 +18,17 @@
   "homepage": "https://github.com/olive-js/olive-js#readme",
   "dependencies": {
     "blipp": "^2.3.0",
+    "dogwater": "^1.0.1",
     "glue": "^2.4.0",
     "good": "^6.4.0",
     "good-console": "^5.2.0",
     "hapi": "^11.1.2",
+    "hapi-swagger": "^3.0.0-rc1",
+    "inert": "^3.2.0",
     "joi": "^7.0.0",
-    "mongoose": "^4.2.7"
+    "sails-disk": "^0.10.8",
+    "sails-memory": "^0.10.5",
+    "shortid": "^2.2.4",
+    "vision": "^4.0.1"
   }
 }
