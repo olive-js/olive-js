@@ -1,2 +1,45 @@
-<div layout="row">
+<div layout="column" layout-align="center center" layout-fill>
+
+
+<div layout-align="center start" layout="row">
+     <md-content id="login-box" class="md-whiteframe-z5 move-up" >
+       <md-toolbar layout-align="center center" layout-padding>
+         <h3>Olive Admin - Login</h3>
+       </md-toolbar>
+       <md-content >
+       <form name="loginForm" layout-margin>
+
+         <md-input-container class="md-block">
+           <label>Email</label>
+           <input required type="email" value="admin@olive.com" name="clientEmail" ng-model="project.clientEmail"
+                  minlength="10" maxlength="100" ng-pattern="/^.+@.+\..+$/" />
+           <div ng-messages="projectForm.clientEmail.$error" role="alert">
+             <div ng-message-exp="['required', 'minlength', 'maxlength', 'pattern']">
+               Your email must be between 10 and 100 characters long and look like an e-mail address.
+             </div>
+           </div>
+         </md-input-container>
+         <md-input-container class="md-block">
+           <label>Password </label>
+           <input required name="clientName" ng-model="project.clientName">
+           <div ng-messages="projectForm.clientName.$error">
+             <div ng-message="required">This is required.</div>
+           </div>
+         </md-input-container>
+         <div layout-align="end" layout="row">
+         <md-button class="md-primary md-hue-1">Login</md-button>
+       </div>
+       </form>
+          </md-content>
+     </md-content>
+   </div>
+
 </div>
+<!-- <div layout="column" layout-align="center center" layout-fill>
+ <md-whiteframe class="md-whiteframe-4dp" flex-sm="50" flex-gt-sm="50" flex-gt-md="50" layout layout-align="center center">
+
+    <md-content layout-padding>
+
+     </md-content>
+  </md-whiteframe>
+</div> -->
