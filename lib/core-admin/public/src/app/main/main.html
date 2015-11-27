@@ -1,0 +1,124 @@
+<div layout="column" layout-fill>
+  <md-toolbar layout="row" class="md-whiteframe-z1" layout-padding>
+      <md-button class="menu" hide-gt-sm ng-click="main.toggleSideNav()" aria-label="Show User List">
+        <!--<md-icon md-font-library="material-icons">menu</md-icon>-->
+          <!--<md-icon icon="send"></md-icon>-->
+          <ng-md-icon icon="menu"></ng-md-icon>
+      </md-button>
+      <h3>Angular Material - Starter App</h3>
+      <span flex></span>
+      <md-button>
+        <md-icon md-font-library="material-icons">more_vert</md-icon>
+      </md-button>
+  </md-toolbar>
+</div>
+
+<div layout="row">
+  <md-sidenav class="site-sidenav md-sidenav-left md-whiteframe-z2"
+                md-component-id="left"
+                md-is-locked-open="$mdMedia('gt-sm')">
+    Left Nav!
+  </md-sidenav>
+  <md-content>
+    Center Content
+  </md-content>
+</div>
+
+
+
+<!--<header>
+  <olive-navbar creation-date="main.creationDate"></olive-navbar>
+</header>
+
+
+<div layout="row">
+asdads
+
+
+<md-content>
+  <header>
+    <olive-navbar creation-date="main.creationDate"></olive-navbar>
+  </header>
+
+  <!--md-sidenav class="site-sidenav md-sidenav-left md-whiteframe-z2"
+                md-component-id="left"
+                md-is-locked-open="$mdMedia('gt-sm')">
+
+    <md-sidenav layout="column" class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')">
+      <md-toolbar class="md-tall md-hue-2">
+        <span flex></span>
+        <div layout="column" class="md-toolbar-tools-bottom inset">
+          <user-avatar></user-avatar>
+          <span></span>
+          <div>Firstname Lastnamessss</div>
+          <div>email@domainname.com</div>
+        </div>
+      </md-toolbar>
+      <md-list>
+      <md-item ng-repeat="item in menu">
+        <a>
+          <md-item-content md-ink-ripple layout="row" layout-align="start center">
+            <div class="inset">
+              <ng-md-icon icon="{{item.icon}}"></ng-md-icon>
+            </div>
+            <div class="inset">{{item.title}}
+            </div>
+          </md-item-content>
+        </a>
+      </md-item>
+      <md-divider></md-divider>
+      <md-subheader>Management</md-subheader>
+      <md-item ng-repeat="item in admin">
+        <a>
+          <md-item-content md-ink-ripple layout="row" layout-align="start center">
+            <div class="inset">
+              <ng-md-icon icon="{{item.icon}}"></ng-md-icon>
+            </div>
+            <div class="inset">{{item.title}}
+            </div>
+          </md-item-content>
+        </a>
+      </md-item>
+    </md-list>
+    </md-sidenav>
+
+    <!--<md-list>
+      <md-list-item ng-repeat="it in ul.users">
+          <md-button ng-click="ul.selectUser(it)" ng-class="{'selected' : it === ul.selected }">
+            <md-icon md-svg-icon="{{it.avatar}}" class="avatar"></md-icon>
+            {{it.name}}
+          </md-button>
+      </md-list-item>
+    </md-list>
+
+  </md-sidenav>
+
+
+  <!--<section class="jumbotron">
+    <h1>'Allo, 'Allo!</h1>
+    <p class="lead">
+      <img src="assets/images/yeoman.png" alt="I'm Yeoman"><br>
+      Always a pleasure scaffolding your apps.
+    </p>
+    <md-button class="md-raised animated infinite" ng-class="main.classAnimation" ng-click="main.showToastr()">Splendid Toastr</md-button>
+    <p>
+      With ♥ thanks to the contributions of<acme-malarkey extra-values="['Yeoman', 'Gulp', 'Angular']"></acme-malarkey>
+    </p>
+  </section>
+
+  <div class="techs" layout-align="center">
+    <md-card ng-repeat="awesomeThing in main.awesomeThings | orderBy:'rank'">
+      <md-card-content>
+        <img class="pull-right" ng-src="assets/images/{{ awesomeThing.logo }}" alt="{{ awesomeThing.title }}">
+        <h3 class="md-title">{{ awesomeThing.title }}</h3>
+        <p>{{ awesomeThing.description }}</p>
+      </md-card-content>
+      <div class="md-action-buttons">
+        <md-button ng-href="{{ awesomeThing.url }}">Website</md-button>
+      </div>
+    </md-card>
+  </div>
+</md-content>
+</div>
+
+-->

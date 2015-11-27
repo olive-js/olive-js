@@ -30,5 +30,16 @@
     "sails-memory": "^0.10.5",
     "shortid": "^2.2.4",
     "vision": "^4.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-less": "^3.0.5",
+    "gulp-livereload": "^3.8.1",
+    "gulp-open": "^1.0.0",
+    "gulp-protractor": "^1.0.0",
+    "gulp-usemin": "^0.3.16",
+    "jshint": "^2.8.0",
+    "run-sequence": "^1.1.5"
   }
 }

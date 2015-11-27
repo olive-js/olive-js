@@ -1,1 +1,2 @@
-module.exports = require('./lib');
+var OliveServer = require('./lib');
+OliveServer.start();
