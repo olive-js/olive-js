@@ -57,10 +57,10 @@ gulp.task('jshint', function() {
 
 gulp.task('open', function(){
   var options = {
-    url: 'http://localhost:8000'
+    uri: 'http://localhost:3000'
   };
-  gulp.src('app/index.html')
-  .pipe(open('', options));
+  gulp.src(__filename)
+  .pipe(open(options));
 });
 
 gulp.task('default', ['run', 'open'], function() {
