@@ -24,6 +24,7 @@
     "glue": "^2.4.0",
     "good": "^6.4.0",
     "good-console": "^5.2.0",
+    "h2o2": "^4.0.2",
     "hapi": "^11.1.2",
     "hapi-auth-jwt2": "^5.2.1",
     "hapi-mongo-models": "^4.0.0",
