@@ -57,7 +57,7 @@ gulp.task('jshint', function() {
 
 gulp.task('open', function(){
   var options = {
-    uri: 'http://localhost:3000'
+    uri: 'http://localhost:3000/admin/'
   };
   gulp.src(__filename)
   .pipe(open(options));
