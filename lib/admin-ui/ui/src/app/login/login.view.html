@@ -7,7 +7,11 @@
          <h3>Olive Admin - Login</h3>
        </md-toolbar>
        <md-content >
+
+       <md-subheader ng-show="login.errorMessage" class="ng-hide md-warn">{{login.errorMessage}}</md-subheader>
        <form name="loginForm" layout-margin>
+
+
 
          <!--<md-input-container class="md-block">
            <label>Email</label>
